@@ -8,7 +8,7 @@ import BookTickets from "./components/BookTickets";
 // import SeatSelector from "./components/seat-selector";
 import Login from "./Pages/Login";
 import SeatSelector from "./components/Seat-Selector";
-import Navbar from "./Pages/navbar";
+import Navbar from "./Pages/Navbar";
 import AdminPanel from "./components/AdminPanel";
 import Profile from "./Pages/Profile";
 import PrivateComponent from "./Hooks/PrivateComponent";
