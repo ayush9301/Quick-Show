@@ -58,7 +58,7 @@ export const GetAllMovie = createAsyncThunk(
   "ALL/MOVIE",
   async (_, thunkAPI) => {
     try {
-      const responce = await axios.get("/api" + "/movies");
+      const responce = await axios.get(  "https://quick-show-backend.onrender.com" + "/api/movies");
       // console.log(responce.data);
       return responce.data;
     } catch (error) {}
@@ -69,7 +69,7 @@ export const GetSingleMovie = createAsyncThunk(
   "SINGLE/MOVIE",
   async (_id, thunkAPI) => {
     try {
-      const responce = await axios.get("/api" + "/movies/" + _id);
+      const responce = await axios.get(  "https://quick-show-backend.onrender.com" + "/api/movies/" + _id);
       // console.log(responce.data);
       return responce.data;
     } catch (error) {}
